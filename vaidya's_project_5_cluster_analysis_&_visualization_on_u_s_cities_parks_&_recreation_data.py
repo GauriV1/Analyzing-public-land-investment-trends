@@ -27,11 +27,11 @@ from sklearn.cluster import KMeans
 
 # Loading the dataset
 from google.colab import files
-uploaded = files.upload("/Users/gaurivaidya/Desktop/")
+uploaded = files.upload("file path")
 
 #Step 1
 
-df = pd.read_csv("/Users/gaurivaidya/Desktop/parks_data_2024 (4).csv")
+df = pd.read_csv("file path")
 
 # Displaying the first few rows
 print(df.head())
